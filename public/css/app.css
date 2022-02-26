@@ -11307,18 +11307,31 @@ ul li:hover {
   color: #FFFFFF;
 }
 
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.center h1, .center .h1 {
+  font-size: 4.5em;
+}
+.center h4, .center .h4 {
+  font-size: 1.75em;
+}
+
 .cat_sound, .cat_dev {
   font-weight: bold;
   font-size: 2.25em;
   border: 2px solid #000;
-  width: 300px;
+  width: 353px;
   height: 63px;
   box-shadow: -5px 5px #B8B8B8, inset 0 0 0 0.09px gold;
   transition: ease-out 0.3s;
 }
 .cat_sound:hover, .cat_dev:hover {
   transform: translate(5px, -5px);
-  box-shadow: -10px 10px #B8B8B8, inset 300px 0 0 0 gold;
+  box-shadow: -10px 10px #B8B8B8, inset 353px 0 0 0 gold;
 }
 
 .footer {
@@ -11329,22 +11342,34 @@ ul li:hover {
   color: #707070;
 }
 
-.card .card_project {
+.title {
+  border: 3px solid #000;
+  width: 712px;
+  height: 124px;
+  font-size: 1.5em;
+  box-shadow: -15px 15px #B8B8B8;
+}
+
+.box {
+  gap: 100px;
+}
+.box .box_project {
   width: 580px;
   height: 325px;
   border: 3px solid black;
+  margin-top: 100px;
   box-shadow: -15px 15px #B8B8B8;
   position: relative;
 }
-.card .card_project:hover .card_project_text {
+.box .box_project:hover .box_project_text {
   opacity: 1;
   transition: 1s;
 }
-.card .card_project:hover img {
+.box .box_project:hover img {
   opacity: 0.5;
   transition: 1s;
 }
-.card .card_project_text {
+.box .box_project_text {
   width: auto;
   color: #000;
   opacity: 0;
@@ -11353,7 +11378,7 @@ ul li:hover {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.card .card_project img {
+.box .box_project img {
   max-width: 100%;
   display: block;
 }

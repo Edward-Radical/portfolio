@@ -34,13 +34,28 @@ ul{
     }
 } 
 
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    h1{
+        font-size: 4.5em;
+    }
+
+    h4{
+        font-size:1.75em;
+    }
+}
+
 
 .cat_sound, .cat_dev{
     
     font-weight: bold;
     font-size: 2.25em;
     border: 2px solid $text-color;
-    width: 300px;
+    width: 353px;
     height: 63px;
 
 
@@ -49,7 +64,7 @@ ul{
 
     &:hover{
         transform: translate(5px, -5px);
-        box-shadow: -10px 10px $shadow, inset 300px 0 0 0 gold;     
+        box-shadow: -10px 10px $shadow, inset 353px 0 0 0 gold;     
     }
 
     
@@ -68,14 +83,28 @@ ul{
   }
 
 
-  //COMPONENT
-.card{
+//single-page-sound
+
+.title {
+    
+    border: 3px solid $text-color;
+    width: 712px;
+    height: 124px;
+    font-size: 1.5em;
+    box-shadow: -15px 15px $shadow;
+
+    //font-family: 'menu';
+}
+
+.box{
+
+    gap:100px;
     
     #{&}_project{
         width: 580px;
         height: 325px;
         border: 3px solid black;
-        //margin-top: 100px;
+        margin-top: 100px;
         box-shadow: -15px 15px #B8B8B8;
 
         position: relative;
@@ -83,7 +112,7 @@ ul{
         &:hover {
             //background: $overlay-box;
             
-            .card_project_text {
+            .box_project_text {
                 opacity: 1;
                 transition: 1s;
             }

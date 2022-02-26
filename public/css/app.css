@@ -11307,18 +11307,31 @@ ul li:hover {
   color: #FFFFFF;
 }
 
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.center h1, .center .h1 {
+  font-size: 4.5em;
+}
+.center h4, .center .h4 {
+  font-size: 1.75em;
+}
+
 .cat_sound, .cat_dev {
   font-weight: bold;
   font-size: 2.25em;
   border: 2px solid #000;
-  width: 300px;
+  width: 353px;
   height: 63px;
   box-shadow: -5px 5px #B8B8B8, inset 0 0 0 0.09px gold;
   transition: ease-out 0.3s;
 }
 .cat_sound:hover, .cat_dev:hover {
   transform: translate(5px, -5px);
-  box-shadow: -10px 10px #B8B8B8, inset 300px 0 0 0 gold;
+  box-shadow: -10px 10px #B8B8B8, inset 353px 0 0 0 gold;
 }
 
 .footer {

@@ -69,7 +69,9 @@ ul{
 
 
   //COMPONENT
-.card{
+.box{
+
+    gap:100px;
     
     #{&}_project{
         width: 580px;
@@ -83,7 +85,7 @@ ul{
         &:hover {
             //background: $overlay-box;
             
-            .card_project_text {
+            .box_project_text {
                 opacity: 1;
                 transition: 1s;
             }

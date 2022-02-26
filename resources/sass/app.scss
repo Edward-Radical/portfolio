@@ -68,7 +68,19 @@ ul{
   }
 
 
-  //COMPONENT
+//single-page-sound
+
+.title {
+    
+    border: 3px solid $text-color;
+    width: 712px;
+    height: 124px;
+    font-size: 1.5em;
+    box-shadow: -15px 15px $shadow;
+
+    //font-family: 'menu';
+}
+
 .box{
 
     gap:100px;
@@ -77,7 +89,7 @@ ul{
         width: 580px;
         height: 325px;
         border: 3px solid black;
-        //margin-top: 100px;
+        margin-top: 100px;
         box-shadow: -15px 15px #B8B8B8;
 
         position: relative;

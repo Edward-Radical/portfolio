@@ -11329,6 +11329,14 @@ ul li:hover {
   color: #707070;
 }
 
+.title {
+  border: 3px solid #000;
+  width: 712px;
+  height: 124px;
+  font-size: 1.5em;
+  box-shadow: -15px 15px #B8B8B8;
+}
+
 .box {
   gap: 100px;
 }
@@ -11336,6 +11344,7 @@ ul li:hover {
   width: 580px;
   height: 325px;
   border: 3px solid black;
+  margin-top: 100px;
   box-shadow: -15px 15px #B8B8B8;
   position: relative;
 }

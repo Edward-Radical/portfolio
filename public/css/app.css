@@ -11329,22 +11329,25 @@ ul li:hover {
   color: #707070;
 }
 
-.card .card_project {
+.box {
+  gap: 100px;
+}
+.box .box_project {
   width: 580px;
   height: 325px;
   border: 3px solid black;
   box-shadow: -15px 15px #B8B8B8;
   position: relative;
 }
-.card .card_project:hover .card_project_text {
+.box .box_project:hover .box_project_text {
   opacity: 1;
   transition: 1s;
 }
-.card .card_project:hover img {
+.box .box_project:hover img {
   opacity: 0.5;
   transition: 1s;
 }
-.card .card_project_text {
+.box .box_project_text {
   width: auto;
   color: #000;
   opacity: 0;
@@ -11353,7 +11356,7 @@ ul li:hover {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.card .card_project img {
+.box .box_project img {
   max-width: 100%;
   display: block;
 }

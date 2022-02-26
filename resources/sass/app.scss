@@ -7,4 +7,139 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+a, a:hover{
+    color: $text-color;
+} 
+
+ul{
+    //margin: 95px;
+    //font-family: 'menu';
+
+    li{
+        
+        border: 2px solid $text-color;
+        width: 217px;
+        height: 94px;
+        font-weight: bold;
+        font-size: 2em;
+
+        box-shadow: -5px 5px $shadow, inset 0 0 0 0.9px #673AB7;
+        transition: ease-out 0.3s;
+
+        &:hover{
+            transform: translate(5px, -5px);
+            box-shadow: -10px 10px $shadow, inset 217px 0 0 0 #673AB7;   
+            color: $text-dark-color;
+        }   
+    }
+} 
+
+
+.cat_sound, .cat_dev{
+    
+    font-weight: bold;
+    font-size: 2.25em;
+    border: 2px solid $text-color;
+    width: 300px;
+    height: 63px;
+
+
+    box-shadow: -5px 5px $shadow, inset 0 0 0 0.09px gold;
+    transition: ease-out 0.3s;
+
+    &:hover{
+        transform: translate(5px, -5px);
+        box-shadow: -10px 10px $shadow, inset 300px 0 0 0 gold;     
+    }
+
+    
+}
+
+
+.footer{
+    
+    height: 50px;
+    border: 2px solid $text-color;
+    box-shadow: -5px 5px $shadow;
+  
+    font-size: 1.125em;
+    color: $footer-text-color;
+    //font-family: 'menu';  
+  }
+
+
+  //COMPONENT
+.card{
+    
+    #{&}_project{
+        width: 580px;
+        height: 325px;
+        border: 3px solid black;
+        //margin-top: 100px;
+        box-shadow: -15px 15px #B8B8B8;
+
+        position: relative;
+
+        &:hover {
+            //background: $overlay-box;
+            
+            .card_project_text {
+                opacity: 1;
+                transition: 1s;
+            }
+
+            img{
+                opacity: 0.5;
+                transition: 1s;
+            }
+        }
+
+        &_text{
+            width: auto;
+            
+            color: $text-color;
+            //font-family: 'main';
+
+            opacity: 0;
+            
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        img{
+            max-width: 100%;
+            display: block;
+            
+        }
+
+    }
+}
+
+//single project
+.project__h{
+    border: 3px solid $text-color;
+    width: 712px;
+    height: 124px;
+    font-size: 1.5em;
+    box-shadow: -15px 15px $shadow;
+    //font-family: 'menu';
+
+    .project__header__description{
+        font-size: 0.75em;
+        //font-family: 'main';
+        font-style: italic;
+
+    }
+  }
+
+.video{
+    width: 1176px;
+    height: 533px;
+    border: 2px solid $text-color;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: -15px 15px $shadow;
+  }
 

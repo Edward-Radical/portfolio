@@ -1,7 +1,19 @@
-// Body
-$body-bg: #f8fafc;
+/*------------------------------------*\
+  COLOR
+\*------------------------------------*/  
+$text-color: #000;
+$footer-text-color: #707070;
+$shadow: #B8B8B8;
+$overlay-box: #eeeeee;
 
-// Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
+//dark theme
+$text-dark-color: #FFFFFF;
+$border-dark-color: #673AB7;
+$shadow-dark: #8b5adb;
+$background: #121212;
+
+/*------------------------------------*\
+  MEDIA QUERY DEVICE WIDTH
+\*------------------------------------*/  
+$non-retina-width: 1440px;
+$mobile-width: 850px;

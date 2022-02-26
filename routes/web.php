@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SoundController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +22,10 @@ Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('/link1', function () {
-    return view('link1');
-});
+Route::get('/link1', [App\Http\Controllers\SoundController::class, 'projects']);
+Route::get('link1/{sound}', [App\Http\Controllers\SoundController::class, 'show']);
+
+
 
 Route::get('/link2', function () {
     return view('link2');

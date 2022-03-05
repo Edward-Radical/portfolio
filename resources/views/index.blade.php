@@ -16,7 +16,7 @@
                     <a class="text-decoration-none" href="#">
                         <li class="d-flex justify-content-center align-items-center">CV</li>
                     </a>
-                    <a class="text-decoration-none" href="#">
+                    <a class="text-decoration-none" href="mailto:parisi.arianna@aol.com">
                         <li class="d-flex justify-content-center align-items-center">CONTACT</li>
                     </a>
                   </ul>

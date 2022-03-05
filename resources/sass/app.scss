@@ -7,6 +7,23 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+
+.back_icon {
+    position: fixed;
+    top: 75px;
+    left: 122px;
+    width: 80px;
+    float:left;
+}
+
+.home_icon {
+    position: fixed;
+    top: 75px;
+    right: 122px;
+    width: 80px;
+    float:right;
+}
+
 a, a:hover{
     color: $text-color;
 } 
@@ -81,6 +98,67 @@ ul{
     color: $footer-text-color;
     //font-family: 'menu';  
   }
+
+
+//ABOUT
+a{
+    text-decoration: none;
+}
+
+.header { 
+    margin: 0;
+    margin-top:60px;
+    padding: 0;
+    width: 100vw;
+    height: 261px;
+
+    .header__p{
+        //font-family: 'main';
+        font-size: 2em;
+        margin-bottom: 40px;
+    }
+    
+    .header__button{
+        background: white;
+        border: 3px solid $text-color;
+        box-shadow: -8px 8px $shadow, inset 0 0 0 0.9px #673AB7;
+        width: 712px;
+        height: 124px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        //font-family: 'menu';
+        font-size: 3em;
+
+        transition: ease-out 0.3s;
+        
+        &:hover{
+            transform: translate(5px, -5px);
+            box-shadow: -16px 16px $shadow, inset 712px 0 0 0 #673AB7;
+            color: #fff;
+
+        }
+
+    }
+}  
+
+.main {
+    //border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    overflow: hidden;
+}
 
 
 //single-page-sound

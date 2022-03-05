@@ -11288,6 +11288,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.back_icon {
+  position: fixed;
+  top: 75px;
+  left: 122px;
+  width: 80px;
+  float: left;
+}
+
+.home_icon {
+  position: fixed;
+  top: 75px;
+  right: 122px;
+  width: 80px;
+  float: right;
+}
+
 a, a:hover {
   color: #000;
 }
@@ -11340,6 +11356,52 @@ ul li:hover {
   box-shadow: -5px 5px #B8B8B8;
   font-size: 1.125em;
   color: #707070;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  margin: 0;
+  margin-top: 60px;
+  padding: 0;
+  width: 100vw;
+  height: 261px;
+}
+.header .header__p {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+.header .header__button {
+  background: white;
+  border: 3px solid #000;
+  box-shadow: -8px 8px #B8B8B8, inset 0 0 0 0.9px #673AB7;
+  width: 712px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  transition: ease-out 0.3s;
+}
+.header .header__button:hover {
+  transform: translate(5px, -5px);
+  box-shadow: -16px 16px #B8B8B8, inset 712px 0 0 0 #673AB7;
+  color: #fff;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  overflow: hidden;
 }
 
 .title {
